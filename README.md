@@ -1,6 +1,6 @@
 # test
 
-> y
+#项目介绍：基于协同过滤算法，实现视频课程推荐，前端vue，后端node.js,数据库mysql，用户端为手机端h5界面，管理员端为pc端界面
 
 ## Build Setup
 
