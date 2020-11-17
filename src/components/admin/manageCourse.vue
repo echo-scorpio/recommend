@@ -470,6 +470,7 @@ export default{
                 data:data
 
             }).then(res=>{
+             
                 if(res.msg=='success'){
                 this.$message.success('课程添加成功');
                 this.dialog = false;

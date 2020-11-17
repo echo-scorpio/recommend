@@ -8,7 +8,7 @@
 export default{
     name:'child4',
     mounted(){
-          console.log("tab4组件")
+        //  console.log("tab4组件")
       }
 }
 </script>

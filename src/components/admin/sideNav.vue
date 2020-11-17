@@ -68,7 +68,6 @@ import request from '@/utils/request'
        },
        getRights(){
          var id=getAdminName();
-         console.log(id)
          request({
            url:'api/manageUser/showAdminInfo',
            method:'post',
@@ -78,7 +77,6 @@ import request from '@/utils/request'
 
          }).then(res=>{
            if(res.msg=='success'){
-             console.log(res.list)
              var rights=[]
              res.list.forEach(element => {
                rights=element['rights'];

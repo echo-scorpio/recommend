@@ -76,7 +76,8 @@ var sql = {
         addRight:'insert into t_admin_right values(?,?)',
         addAdmin:'insert into t_admin values(?,?,1)',
         addAdminInfo:'insert into t_admin_info values(?,?)',
-        showAdminInfo:'SELECT name,GROUP_CONCAT(admin_right) rights,role FROM `t_admin_right`,t_admin_info,t_admin WHERE t_admin_info.id=t_admin_right.id and t_admin.adminID=t_admin_info.id and t_admin_info.id=?'
+        showAdminInfo:'SELECT name,GROUP_CONCAT(admin_right) rights,role FROM `t_admin_right`,t_admin_info,t_admin WHERE t_admin_info.id=t_admin_right.id and t_admin.adminID=t_admin_info.id and t_admin_info.id=?',
+        editAdminName:'update t_admin_info set name=? where id=?',
     }
     
 }
